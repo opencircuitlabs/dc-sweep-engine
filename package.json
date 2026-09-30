@@ -1,0 +1,13 @@
+{
+  "name":"@opencircuitlabs/dc-sweep-engine",
+  "version":"0.1.0",
+  "description":"Dependency-free DC operating-point and nested parameter sweep engine.",
+  "type":"module",
+  "main":"src/index.js",
+  "exports":"./src/index.js",
+  "scripts":{"check":"node --check src/index.js","test":"node --test tests/*.test.js","example":"node examples/voltage-divider-sweep.js"},
+  "keywords":["electronics","circuit-simulation","dc-sweep","operating-point","mna"],
+  "license":"MIT",
+  "repository":{"type":"git","url":"git+https://github.com/opencircuitlabs/dc-sweep-engine.git"},
+  "engines":{"node":">=18"}
+}
